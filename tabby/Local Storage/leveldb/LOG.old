@@ -1,0 +1,92 @@
+2024/01/09-11:08:32.498 b531 Creating DB /home/doc/.config/tabby/Local Storage/leveldb since it was missing.
+2024/01/09-11:08:32.511 b531 Reusing MANIFEST /home/doc/.config/tabby/Local Storage/leveldb/MANIFEST-000001
+2024/01/09-11:15:34.890 b532 Level-0 table #5: started
+2024/01/09-11:15:34.893 b532 Level-0 table #5: 22804 bytes OK
+2024/01/09-11:15:34.896 b532 Delete type=0 #3
+2024/01/09-11:18:34.885 b532 Level-0 table #7: started
+2024/01/09-11:18:34.897 b532 Level-0 table #7: 20179 bytes OK
+2024/01/09-11:18:34.899 b532 Delete type=0 #4
+2024/01/09-11:21:12.462 b532 Level-0 table #9: started
+2024/01/09-11:21:12.473 b532 Level-0 table #9: 19819 bytes OK
+2024/01/09-11:21:12.475 b532 Delete type=0 #6
+2024/01/09-11:22:34.882 b532 Level-0 table #11: started
+2024/01/09-11:22:34.896 b532 Level-0 table #11: 19837 bytes OK
+2024/01/09-11:22:34.898 b532 Delete type=0 #8
+2024/01/09-11:24:34.897 b532 Level-0 table #13: started
+2024/01/09-11:24:34.909 b532 Level-0 table #13: 22244 bytes OK
+2024/01/09-11:24:34.911 b532 Delete type=0 #10
+2024/01/09-11:25:34.882 b532 Level-0 table #15: started
+2024/01/09-11:25:34.895 b532 Level-0 table #15: 11661 bytes OK
+2024/01/09-11:25:34.898 b532 Delete type=0 #12
+2024/01/09-11:25:34.898 b532 Compacting 4@0 + 1@1 files
+2024/01/09-11:25:34.901 b532 Generated table #16@0: 2 keys, 11661 bytes
+2024/01/09-11:25:34.901 b532 Compacted 4@0 + 1@1 files => 11661 bytes
+2024/01/09-11:25:34.903 b532 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/01/09-11:25:34.903 b532 Delete type=2 #13
+2024/01/09-11:25:34.903 b532 Delete type=2 #15
+2024/01/09-11:25:34.903 b532 Delete type=2 #9
+2024/01/09-11:25:34.903 b532 Delete type=2 #7
+2024/01/09-11:25:34.903 b532 Delete type=2 #11
+2024/01/09-11:26:34.909 b532 Level-0 table #18: started
+2024/01/09-11:26:34.912 b532 Level-0 table #18: 11667 bytes OK
+2024/01/09-11:26:34.915 b532 Delete type=0 #14
+2024/01/09-11:28:12.471 b532 Level-0 table #20: started
+2024/01/09-11:28:12.482 b532 Level-0 table #20: 14836 bytes OK
+2024/01/09-11:28:12.485 b532 Delete type=0 #17
+2024/01/09-11:28:42.474 b532 Level-0 table #22: started
+2024/01/09-11:28:42.480 b532 Level-0 table #22: 14838 bytes OK
+2024/01/09-11:28:42.482 b532 Delete type=0 #19
+2024/01/09-11:29:34.885 b532 Level-0 table #24: started
+2024/01/09-11:29:34.896 b532 Level-0 table #24: 15458 bytes OK
+2024/01/09-11:29:34.899 b532 Delete type=0 #21
+2024/01/09-11:29:34.899 b532 Compacting 4@0 + 1@1 files
+2024/01/09-11:29:34.902 b532 Generated table #25@0: 2 keys, 15458 bytes
+2024/01/09-11:29:34.902 b532 Compacted 4@0 + 1@1 files => 15458 bytes
+2024/01/09-11:29:34.904 b532 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/01/09-11:29:34.904 b532 Delete type=2 #24
+2024/01/09-11:29:34.904 b532 Delete type=2 #22
+2024/01/09-11:29:34.904 b532 Delete type=2 #18
+2024/01/09-11:29:34.904 b532 Delete type=2 #20
+2024/01/09-11:29:34.904 b532 Delete type=2 #16
+2024/01/09-11:36:12.489 b532 Level-0 table #27: started
+2024/01/09-11:36:12.495 b532 Level-0 table #27: 15967 bytes OK
+2024/01/09-11:36:12.498 b532 Delete type=0 #23
+2024/01/09-11:36:42.472 b532 Level-0 table #29: started
+2024/01/09-11:36:42.483 b532 Level-0 table #29: 16078 bytes OK
+2024/01/09-11:36:42.486 b532 Delete type=0 #26
+2024/01/09-11:37:12.473 b532 Level-0 table #31: started
+2024/01/09-11:37:12.484 b532 Level-0 table #31: 16081 bytes OK
+2024/01/09-11:37:12.487 b532 Delete type=0 #28
+2024/01/09-11:37:42.480 b532 Level-0 table #33: started
+2024/01/09-11:37:42.491 b532 Level-0 table #33: 16087 bytes OK
+2024/01/09-11:37:42.493 b532 Delete type=0 #30
+2024/01/09-11:37:42.493 b532 Compacting 4@0 + 1@1 files
+2024/01/09-11:37:42.497 b532 Generated table #34@0: 2 keys, 16087 bytes
+2024/01/09-11:37:42.497 b532 Compacted 4@0 + 1@1 files => 16087 bytes
+2024/01/09-11:37:42.499 b532 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/01/09-11:37:42.499 b532 Delete type=2 #31
+2024/01/09-11:37:42.499 b532 Delete type=2 #29
+2024/01/09-11:37:42.499 b532 Delete type=2 #25
+2024/01/09-11:37:42.499 b532 Delete type=2 #27
+2024/01/09-11:37:42.499 b532 Delete type=2 #33
+2024/01/09-11:38:12.473 b532 Level-0 table #36: started
+2024/01/09-11:38:12.476 b532 Level-0 table #36: 16181 bytes OK
+2024/01/09-11:38:12.478 b532 Delete type=0 #32
+2024/01/09-11:38:42.482 b532 Level-0 table #38: started
+2024/01/09-11:38:42.493 b532 Level-0 table #38: 16161 bytes OK
+2024/01/09-11:38:42.495 b532 Delete type=0 #35
+2024/01/09-11:39:42.478 b532 Level-0 table #40: started
+2024/01/09-11:39:42.493 b532 Level-0 table #40: 16414 bytes OK
+2024/01/09-11:39:42.495 b532 Delete type=0 #37
+2024/01/09-11:40:12.479 b532 Level-0 table #42: started
+2024/01/09-11:40:12.493 b532 Level-0 table #42: 16448 bytes OK
+2024/01/09-11:40:12.498 b532 Delete type=0 #39
+2024/01/09-11:40:12.499 b532 Compacting 4@0 + 1@1 files
+2024/01/09-11:40:12.502 b532 Generated table #43@0: 2 keys, 16448 bytes
+2024/01/09-11:40:12.502 b532 Compacted 4@0 + 1@1 files => 16448 bytes
+2024/01/09-11:40:12.503 b532 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/01/09-11:40:12.504 b532 Delete type=2 #36
+2024/01/09-11:40:12.504 b532 Delete type=2 #38
+2024/01/09-11:40:12.504 b532 Delete type=2 #42
+2024/01/09-11:40:12.504 b532 Delete type=2 #34
+2024/01/09-11:40:12.504 b532 Delete type=2 #40

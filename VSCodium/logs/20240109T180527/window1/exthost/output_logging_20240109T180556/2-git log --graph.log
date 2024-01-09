@@ -1,0 +1,5 @@
+extension activate
+set selected repo index 0
+workspace: repo(s) added/removed
+start observing repo /home/doc/repositories/dotfiles
+extension deactivate

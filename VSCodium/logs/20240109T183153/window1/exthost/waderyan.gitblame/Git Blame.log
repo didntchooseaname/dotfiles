@@ -1,0 +1,21 @@
+2024-01-09 18:32:14.976 [info] git rev-parse --absolute-git-dir
+2024-01-09 18:32:14.994 [info] git rev-parse --absolute-git-dir
+2024-01-09 18:32:15.021 [error] Error: Command failed: git rev-parse --absolute-git-dir
+fatal: not a git repository (or any of the parent directories): .git
+
+	at ChildProcess.exithandler (node:child_process:430:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)
+2024-01-09 18:32:15.021 [info] Will not blame '/home/doc/scripts/copy_dotfiles.sh'. Outside the current workspace.
+2024-01-09 18:32:15.022 [error] Error: Command failed: git rev-parse --absolute-git-dir
+fatal: not a git repository (or any of the parent directories): .git
+
+	at ChildProcess.exithandler (node:child_process:430:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)

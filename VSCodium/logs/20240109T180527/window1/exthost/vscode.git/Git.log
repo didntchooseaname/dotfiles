@@ -1,0 +1,24 @@
+2024-01-09 18:05:29.847 [info] Log level: Info
+2024-01-09 18:05:29.847 [info] Validating found git in: "git"
+2024-01-09 18:05:29.847 [info] Using git "2.43.0" from "git"
+2024-01-09 18:05:29.847 [info] > git rev-parse --show-toplevel [3ms]
+2024-01-09 18:05:29.847 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-09 18:05:29.847 [info] > git rev-parse --show-toplevel [5ms]
+2024-01-09 18:05:30.205 [info] > git rev-parse --show-toplevel [23ms]
+2024-01-09 18:05:30.217 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-09 18:05:30.228 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-09 18:05:56.985 [info] Log level: Info
+2024-01-09 18:05:56.985 [info] Validating found git in: "git"
+2024-01-09 18:05:56.985 [info] Using git "2.43.0" from "git"
+2024-01-09 18:05:56.985 [info] > git rev-parse --show-toplevel [3ms]
+2024-01-09 18:05:56.985 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-01-09 18:05:56.985 [info] Open repository: /home/doc/repositories/dotfiles
+2024-01-09 18:05:56.985 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-09 18:05:56.985 [info] > git config --get commit.template [12ms]
+2024-01-09 18:05:56.985 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-09 18:05:56.985 [warning] ENOENT: no such file or directory, open '/home/doc/repositories/dotfiles/.git/refs/remotes/origin/main'
+2024-01-09 18:05:56.985 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2024-01-09 18:05:57.254 [info] > git status -z -uall [274ms] (cancelled)
+2024-01-09 18:05:57.604 [info] > git check-ignore -v -z --stdin [5ms]
+2024-01-09 18:07:53.574 [info] > git check-ignore -v -z --stdin [49ms]
+2024-01-09 18:07:54.902 [info] > git check-ignore -v -z --stdin [23ms]

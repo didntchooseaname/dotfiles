@@ -1,0 +1,27 @@
+2024-01-09 18:31:55.734 [info] Log level: Info
+2024-01-09 18:31:55.734 [info] Validating found git in: "git"
+2024-01-09 18:31:55.734 [info] Using git "2.43.0" from "git"
+2024-01-09 18:31:55.734 [info] > git rev-parse --show-toplevel [4ms]
+2024-01-09 18:31:55.734 [info] > git rev-parse --git-dir --git-common-dir [69ms]
+2024-01-09 18:31:55.734 [info] Open repository: /home/doc/repositories/dotfiles
+2024-01-09 18:31:55.736 [info] > git config --get commit.template [56ms]
+2024-01-09 18:31:55.769 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-01-09 18:31:55.787 [warning] ENOENT: no such file or directory, open '/home/doc/repositories/dotfiles/.git/refs/remotes/origin/main'
+2024-01-09 18:31:55.799 [info] > git rev-parse refs/remotes/origin/main [11ms]
+2024-01-09 18:31:55.946 [info] > git status -z -uall [138ms] (cancelled)
+2024-01-09 18:31:56.048 [info] > git fetch [457ms]
+2024-01-09 18:31:56.048 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+2024-01-09 18:31:56.080 [info] > git config --get commit.template [14ms]
+2024-01-09 18:31:56.081 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-09 18:31:56.094 [warning] ENOENT: no such file or directory, open '/home/doc/repositories/dotfiles/.git/refs/remotes/origin/main'
+2024-01-09 18:31:56.095 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-01-09 18:31:56.233 [info] > git check-ignore -v -z --stdin [7ms]
+2024-01-09 18:31:56.239 [info] > git status -z -uall [134ms] (cancelled)
+2024-01-09 18:31:58.107 [info] > git config --get commit.template [1ms]
+2024-01-09 18:31:58.128 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-09 18:31:58.139 [warning] ENOENT: no such file or directory, open '/home/doc/repositories/dotfiles/.git/refs/remotes/origin/main'
+2024-01-09 18:31:58.140 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-01-09 18:32:00.583 [info] > git status -z -uall [2428ms] (cancelled)
+2024-01-09 18:32:15.022 [info] > git rev-parse --show-toplevel [3ms]
+2024-01-09 18:32:15.022 [info] fatal: not a git repository (or any of the parent directories): .git

@@ -1,0 +1,1 @@
+find ~/.config/ -mindepth 1 -maxdepth 1 -type d ! -name 'BraveSoftware' ! -name 'balena-etcher' ! -name 'discord' ! -name 'obsidian' ! -name 'VSCodium' ! -name 'qBitorrent' -exec cp -r {} ~/repositories/dotfiles/ \; && 7z a config.zip ~/repositories/dotfiles/

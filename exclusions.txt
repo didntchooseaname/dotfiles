@@ -1,0 +1,16 @@
+discord
+balena-etcher
+bleachbit
+BraveSoftware
+cava
+geany
+Kvantum
+obsidian
+qBittorrent
+simplex
+Vencord
+VencordDesktop
+vlc
+WebCord
+xfce4
+

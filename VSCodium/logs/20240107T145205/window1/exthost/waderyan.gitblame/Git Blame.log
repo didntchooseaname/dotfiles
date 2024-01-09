@@ -1,0 +1,4 @@
+2024-01-07 14:52:07.488 [info] git rev-parse --absolute-git-dir
+2024-01-07 14:52:07.488 [info] git rev-parse --absolute-git-dir
+2024-01-07 14:52:07.488 [info] git blame -C --incremental -- /home/doc/Documents/SECNOTES/.obsidian/snippets/bg.css
+2024-01-07 14:52:07.517 [info] Blamed "/home/doc/Documents/SECNOTES/.obsidian/snippets/bg.css"

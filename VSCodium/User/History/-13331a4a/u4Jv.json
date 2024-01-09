@@ -1,0 +1,5 @@
+{
+    "explorer.confirmDelete": false,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true
+}

@@ -1,0 +1,21 @@
+2024-01-03 19:57:16.441 [info] git rev-parse --absolute-git-dir
+2024-01-03 19:57:16.456 [info] git rev-parse --absolute-git-dir
+2024-01-03 19:57:16.474 [error] Error: Command failed: git rev-parse --absolute-git-dir
+fatal: not a git repository (or any of the parent directories): .git
+
+	at ChildProcess.exithandler (node:child_process:430:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)
+2024-01-03 19:57:16.479 [error] Error: Command failed: git rev-parse --absolute-git-dir
+fatal: not a git repository (or any of the parent directories): .git
+
+	at ChildProcess.exithandler (node:child_process:430:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)
+2024-01-03 19:57:16.479 [info] Will not blame '/home/doc/.exegol/workspaces/dante/results/172.16.1.5/scans/_full_tcp_nmap.txt'. Outside the current workspace.

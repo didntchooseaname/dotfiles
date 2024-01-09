@@ -1,0 +1,114 @@
+2024-01-03 19:57:03.748 [info] Extension host with pid 67918 started
+2024-01-03 19:57:03.748 [info] Skipping acquiring lock for /home/doc/.config/VSCodium/User/workspaceStorage/c7f120ad75b0064fd04ba9e6998aa4fc.
+2024-01-03 19:57:03.778 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-03 19:57:03.782 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2024-01-03 19:57:03.864 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-03 19:57:03.898 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-03 19:57:03.946 [info] Eager extensions activated
+2024-01-03 19:57:04.037 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-03 19:57:04.040 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-03 19:57:04.050 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2024-01-03 19:57:04.116 [info] ExtensionService#_doActivateExtension phil294.git-log--graph, startup: false, activationEvent: 'onStartupFinished'
+2024-01-03 19:57:04.148 [info] ExtensionService#_doActivateExtension waderyan.gitblame, startup: false, activationEvent: 'onStartupFinished'
+2024-01-03 19:57:12.593 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-01-03 19:57:12.678 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-03 19:57:12.928 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-01-03 19:57:24.749 [warning] TextEditor is closed/disposed
+2024-01-03 19:58:16.917 [info] Extension host terminating: renderer closed the MessagePort
+2024-01-03 19:58:16.964 [error] Canceled: Canceled
+	at new m (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:121511)
+	at u._remoteCall (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:13781)
+	at P.<computed>.x.charCodeAt.P.<computed> (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10333)
+	at h._doExecuteCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:158052)
+	at h.executeCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:157377)
+	at b.registerCommand.description (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:156621)
+	at h._executeContributedCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:158690)
+	at h._doExecuteCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:157510)
+	at h.executeCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:157377)
+	at Object.executeCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:27516)
+	at w (/home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:1077:40599)
+	at h (/home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:1077:45646)
+	at ActionRunners._updateContextKeys (/home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:663:17278)
+	at s (/home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:663:15722)
+	at RegisteredActionRunner.unregister (/home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:663:15865)
+	at RegisteredActionRunner.dispose (/home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:663:14518)
+	at ActionRunners.dispose (/home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:663:15305)
+	at /home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:1037:19246
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:1037:19228)
+	at s (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:829)
+	at f._deactivate (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:12879)
+	at /usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:10120
+	at Array.map (<anonymous>)
+	at f._deactivateAll (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:10107)
+	at f.terminate (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:10490)
+	at s.terminate (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1908)
+	at a (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:11536)
+	at MessagePortMain.<anonymous> (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:7611)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-01-03 19:58:16.964 [error] Canceled: Canceled
+	at new m (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:121511)
+	at u._remoteCall (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:13781)
+	at P.<computed>.x.charCodeAt.P.<computed> (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10333)
+	at h._doExecuteCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:158052)
+	at h.executeCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:157377)
+	at b.registerCommand.description (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:156621)
+	at h._executeContributedCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:158690)
+	at h._doExecuteCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:157510)
+	at h.executeCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:157377)
+	at Object.executeCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:27516)
+	at w (/home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:1077:40599)
+	at h (/home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:1077:45646)
+	at ActionRunners._updateContextKeys (/home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:663:17278)
+	at s (/home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:663:15722)
+	at RegisteredActionRunner.unregister (/home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:663:15865)
+	at RegisteredActionRunner.dispose (/home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:663:14518)
+	at ActionRunners.dispose (/home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:663:15305)
+	at /home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:1037:19246
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:1037:19228)
+	at s (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:829)
+	at f._deactivate (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:12879)
+	at /usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:10120
+	at Array.map (<anonymous>)
+	at f._deactivateAll (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:10107)
+	at f.terminate (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:10490)
+	at s.terminate (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1908)
+	at a (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:11536)
+	at MessagePortMain.<anonymous> (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:7611)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-01-03 19:58:16.965 [error] Canceled: Canceled
+	at new m (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:121511)
+	at u._remoteCall (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:13781)
+	at P.<computed>.x.charCodeAt.P.<computed> (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10333)
+	at h._doExecuteCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:158052)
+	at h.executeCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:157377)
+	at b.registerCommand.description (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:156621)
+	at h._executeContributedCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:158690)
+	at h._doExecuteCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:157510)
+	at h.executeCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:157377)
+	at Object.executeCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:27516)
+	at w (/home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:1077:40599)
+	at h (/home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:1077:45646)
+	at ActionRunners._updateContextKeys (/home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:663:17278)
+	at s (/home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:663:15722)
+	at RegisteredActionRunner.unregister (/home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:663:15865)
+	at RegisteredActionRunner.dispose (/home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:663:14518)
+	at ActionRunners.dispose (/home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:663:15305)
+	at /home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:1037:19246
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/doc/.vscode-oss/extensions/eamodio.gitlens-14.6.1-universal/dist/gitlens.js:1037:19228)
+	at s (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:829)
+	at f._deactivate (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:12879)
+	at /usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:10120
+	at Array.map (<anonymous>)
+	at f._deactivateAll (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:10107)
+	at f.terminate (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:10490)
+	at s.terminate (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1908)
+	at a (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:11536)
+	at MessagePortMain.<anonymous> (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:7611)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-01-03 19:58:16.966 [info] Extension host with pid 67918 exiting with code 0

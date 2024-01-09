@@ -1,0 +1,3 @@
+extension activate
+set selected repo index 0
+extension deactivate

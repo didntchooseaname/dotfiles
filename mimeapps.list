@@ -1,0 +1,5 @@
+[Added Associations]
+application/x-shellscript=org.xfce.mousepad.desktop;codium.desktop;
+
+[Default Applications]
+application/x-shellscript=codium.desktop

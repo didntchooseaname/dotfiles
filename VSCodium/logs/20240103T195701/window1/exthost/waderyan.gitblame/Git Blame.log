@@ -1,0 +1,17 @@
+2024-01-03 19:57:12.505 [info] git rev-parse --absolute-git-dir
+2024-01-03 19:57:12.543 [info] git rev-parse --absolute-git-dir
+2024-01-03 19:57:12.589 [info] git blame -C --incremental -- /home/doc/Documents/SECNOTES/.obsidian/snippets/dashboard.css
+2024-01-03 19:57:12.688 [info] Blamed "/home/doc/Documents/SECNOTES/.obsidian/snippets/dashboard.css"
+2024-01-03 19:57:24.811 [info] git rev-parse --absolute-git-dir
+2024-01-03 19:57:24.844 [info] git rev-parse --absolute-git-dir
+2024-01-03 19:57:24.896 [info] git blame -C --incremental -- /home/doc/Documents/SECNOTES/.obsidian/snippets/bg.css
+2024-01-03 19:57:24.899 [info] Blamed "/home/doc/Documents/SECNOTES/.obsidian/snippets/bg.css"
+2024-01-03 19:57:33.869 [info] git rev-parse --absolute-git-dir
+2024-01-03 19:57:33.912 [info] git blame -C --incremental -- /home/doc/Documents/SECNOTES/.obsidian/snippets/bg.css
+2024-01-03 19:57:33.930 [info] Blamed "/home/doc/Documents/SECNOTES/.obsidian/snippets/bg.css"
+2024-01-03 19:57:35.330 [info] git rev-parse --absolute-git-dir
+2024-01-03 19:57:35.364 [info] git blame -C --incremental -- /home/doc/Documents/SECNOTES/.obsidian/snippets/bg.css
+2024-01-03 19:57:35.369 [info] Blamed "/home/doc/Documents/SECNOTES/.obsidian/snippets/bg.css"
+2024-01-03 19:58:05.477 [info] git rev-parse --absolute-git-dir
+2024-01-03 19:58:05.537 [info] git blame -C --incremental -- /home/doc/Documents/SECNOTES/.obsidian/snippets/bg.css
+2024-01-03 19:58:05.542 [info] Blamed "/home/doc/Documents/SECNOTES/.obsidian/snippets/bg.css"

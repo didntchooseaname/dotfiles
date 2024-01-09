@@ -1,0 +1,7 @@
+Threshold = 83
+DisplayMonitorSources = false
+EnableUpdates = true
+FilterInput = true
+FilterOutput = false
+LastUsedInput = "alsa_input.pci-0000_07_00.6.HiFi__hw_acp__source"
+LastUsedOutput = ""
